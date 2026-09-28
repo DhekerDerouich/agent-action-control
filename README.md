@@ -38,7 +38,7 @@ Ce prototype implémente un **Policy Engine** qui :
 
 ## 🏗️ Architecture
 
-(Insérer ton diagramme ici)
+![Architecture](docs/architecture.png)
 
 ## 🚀 Installation
 
