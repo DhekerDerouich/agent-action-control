@@ -1,0 +1,62 @@
+[
+  {
+    "timestamp": "2026-09-28T21:22:17.710525",
+    "actor_id": "sales_agent_001",
+    "action": "read_customer",
+    "resource": "customer_A",
+    "decision": "Decision.ALLOW",
+    "reason": "Action autoris\u00e9e",
+    "risk": "RiskLevel.LOW",
+    "result": "executed"
+  },
+  {
+    "timestamp": "2026-09-28T21:22:17.710932",
+    "actor_id": "sales_agent_001",
+    "action": "export_data",
+    "resource": "customer_A",
+    "decision": "Decision.DENY",
+    "reason": "Permission insuffisante",
+    "risk": "RiskLevel.LOW",
+    "result": "blocked"
+  },
+  {
+    "timestamp": "2026-09-28T21:22:17.711303",
+    "actor_id": "sales_agent_001",
+    "action": "read_customer",
+    "resource": "confidential_data",
+    "decision": "Decision.DENY",
+    "reason": "Ressource interdite",
+    "risk": "RiskLevel.HIGH",
+    "result": "blocked"
+  },
+  {
+    "timestamp": "2026-09-28T21:22:17.711667",
+    "actor_id": "sales_agent_001",
+    "action": "send_email",
+    "resource": "customer_A",
+    "decision": "Decision.REQUIRE_APPROVAL",
+    "reason": "Action sensible",
+    "risk": "RiskLevel.HIGH",
+    "result": "blocked"
+  },
+  {
+    "timestamp": "2026-09-28T21:22:17.712020",
+    "actor_id": "sales_agent_001",
+    "action": "export_data",
+    "resource": "customer_A",
+    "decision": "Decision.DENY",
+    "reason": "Permission insuffisante",
+    "risk": "RiskLevel.LOW",
+    "result": "blocked"
+  },
+  {
+    "timestamp": "2026-09-28T21:22:17.712381",
+    "actor_id": "sales_agent_001",
+    "action": "read_customer",
+    "resource": "customer_A",
+    "decision": "Decision.ALLOW",
+    "reason": "Action autoris\u00e9e",
+    "risk": "RiskLevel.LOW",
+    "result": "executed"
+  }
+]
